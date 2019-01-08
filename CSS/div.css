@@ -1,0 +1,16 @@
+.kırmızı{
+  background-color: red;
+}
+.mavi{
+  background-color: blue;
+}
+.turuncu{
+  background-color: orange;
+}
+.container{
+  width: 30%;
+  height: 95%;
+  float: left;
+  border-style: outset;
+  margin: 5px;
+}

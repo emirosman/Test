@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Browser Head</title>
+    <link rel="stylesheet" href="css/site.css">
+    <style>
+      p{
+        color   : green;
+        display : block;
+      }
+      a{
+        color :red;
+        text-decoration : none;/*altı çizgisiz*/
+        font-weight : bold;
+      }
+
+      p em{
+        /*p nin altındaki bütün em leri kapsar,araya başka tag girmesini önemsemez*/
+        /*Bu daha kapsayıcı aşağıdaki, daha spesifiktir, önce kapsayıcıyı okusun ki diğer css i bozmasın*/
+        color:purple;
+      }
+      p>em{
+        /*p nin bir alt levelindeki em leri kapsar*/
+        color:orange;
+      }
+      .
+    </style>
+  </head>
+  <body>
+    <h1 style="color:#ff0078">Page Head</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at dui ut nisi commodo mollis. Curabitur vel interdum enim. Aenean lobortis luctus vestibulum. Vestibulum ac arcu purus. Donec congue sem et rhoncus sodales. Proin pellentesque nunc nibh, sed convallis nisi blandit eu. Ut bibendum orci quis aliquet consequat. Nam et sem luctus risus ornare tristique ut eget orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum id nulla vel urna ultricies tristique. Cras non neque ac tortor venenatis porta in sit amet dolor. In luctus diam sit amet eros interdum, id tincidunt sem maximus. Cras vitae mi vitae mauris varius venenatis eu quis sem.
+    </p>
+    <p>
+      Duis faucibus, risus in<br>
+      <span style="color:#ff0090">
+        <sub>viverra</sub>
+        <sup>accumsan</sup>
+      </span>,<br>
+      <strong>
+        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em>
+      </strong><br>
+      <em> urna nunc vestibulum massa</em>,<br>
+      <mark> ac convallis orci neque nec ipsum</mark><br>
+      <small>Nam id ultrices magna</small>,<br>
+      <del>interdum euismod quam</del>.<br>
+      <ins>Praesent sit amet libero volutpat leo sollicitudin euismod ac sed ex</ins>.<br>
+      <blockquote>
+        Phasellus sollicitudin lectus quis purus tristique, eget aliquam turpis lobortis. Curabitur dignissim libero quis orci accumsan vestibulum. Mauris ullamcorper iaculis ante vulputate ultrices. Nam maximus velit in dictum scelerisque. Duis ac felis congue, aliquam mauris sit amet, volutpat arcu. Phasellus eros quam, viverra gravida diam vel, mollis luctus turpis. Nam pharetra volutpat mi a elementum. Nullam maximus scelerisque suscipit. In id tempus ipsum. Fusce sagittis neque nec varius ornare. Vestibulum vel dui eget tortor feugiat dictum. Sed velit tellus, vestibulum vitae suscipit eget, tincidunt nec nulla.
+      </blockquote>
+    </p>
+    <p>
+      <ul>
+        <hr>
+        <li>Matrix</li>
+        <br>
+        <li>Star Wars</li>
+        <br>
+        <li>Avatar</li>
+        <hr>
+      </ul>
+    </p>
+    <p>
+      <img src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+           alt="The Matrix"
+           title="The Matrix title"
+           width="240" height="360">
+    </p>
+    <a href="http://github.com" target="_blank" class="hover-link">Go GitHub</a>
+  </body>
+</html>

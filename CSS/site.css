@@ -1,0 +1,25 @@
+body{
+  /* background: black ; */
+  background-color: #ffaaaa;
+}
+
+p{
+  border: 2px black;
+  color: black !important;
+  font-size: 14px;
+}
+a.hover-link:hover
+{
+  color: #fffff9 !important;
+  text-decoration: overline !important;
+  font-weight: bold !important;
+}
+p>blockquote{
+  text-decoration-color: blue;
+}
+.td-hover:hover{
+  background-color: #ffffff
+}
+.td-hover:empty{
+  background-color: red;
+}
